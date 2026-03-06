@@ -1,0 +1,9 @@
+{
+  "name": "jj-worktrees",
+  "version": "1.0.0",
+  "description": "Use jj workspaces instead of git worktrees for Claude Code worktree isolation. Falls back to git for non-jj repos. Supports .claude/worktree-setup and .claude/worktree-teardown scripts.",
+  "author": {
+    "name": "Joel Moss"
+  },
+  "license": "MIT"
+}
