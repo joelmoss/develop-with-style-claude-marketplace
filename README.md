@@ -1,16 +1,26 @@
-# jj-worktrees
+# Develop With Style Claude Code Marketplace
 
-A Claude Code plugin that uses [Jujutsu](https://github.com/jj-vcs/jj) workspaces instead of git worktrees for Claude Code's worktree isolation feature. Falls back to git worktrees for non-jj repos.
+A Claude Code plugin marketplace by Joel Moss, to help to Develop with Style 😎
 
 ## Installation
 
+Add the marketplace:
+
 ```sh
-claude plugin add /path/to/jj-worktrees
+/plugin marketplace add joelmoss/develop-with-style-claude-marketplace
 ```
 
-## How it works
+Then install a plugin:
 
-The plugin provides `WorktreeCreate` and `WorktreeRemove` hooks that Claude Code calls when creating and removing worktrees.
+```sh
+/plugin install jj-worktrees@develop-with-style
+```
+
+## Plugins
+
+### jj-worktrees
+
+Uses [Jujutsu](https://github.com/jj-vcs/jj) workspaces instead of git worktrees for Claude Code's worktree isolation feature. Falls back to git worktrees for non-jj repos.
 
 **Creating a worktree:**
 
@@ -24,7 +34,7 @@ The plugin provides `WorktreeCreate` and `WorktreeRemove` hooks that Claude Code
 - If jj, forgets the workspace via `jj workspace forget` and removes the directory
 - Otherwise, removes the git worktree via `git worktree remove`
 
-## Requirements
+**Requirements:**
 
 - [jq](https://jqlang.github.io/jq/) (for parsing hook input)
 - [jj](https://github.com/jj-vcs/jj) (for jj repos)

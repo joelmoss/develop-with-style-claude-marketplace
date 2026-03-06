@@ -1,0 +1,21 @@
+{
+  "name": "develop-with-style",
+  "owner": {
+    "name": "Joel Moss"
+  },
+  "metadata": {
+    "description": "Plugin marketplace for Claude Code to help you develop with Style",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "jj-worktrees",
+      "source": "./plugins/jj-worktrees",
+      "description": "Use jj workspaces instead of git worktrees for Claude Code worktree isolation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Joel Moss"
+      }
+    }
+  ]
+}
