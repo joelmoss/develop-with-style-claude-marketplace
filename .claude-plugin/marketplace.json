@@ -16,6 +16,15 @@
       "author": {
         "name": "Joel Moss"
       }
+    },
+    {
+      "name": "build-macos-apps",
+      "source": "./plugins/build-macos-apps",
+      "description": "Build, run, test, debug, and implement native macOS apps with SwiftUI, AppKit interop, unified logging, and shell-first desktop workflows",
+      "version": "0.1.0",
+      "author": {
+        "name": "Joel Moss"
+      }
     }
   ]
 }

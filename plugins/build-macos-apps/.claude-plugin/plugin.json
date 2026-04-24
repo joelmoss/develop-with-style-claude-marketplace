@@ -1,0 +1,22 @@
+{
+  "name": "build-macos-apps",
+  "version": "0.1.0",
+  "description": "Build, run, test, debug, instrument, and implement native macOS apps using Xcode, SwiftUI, AppKit interop, unified logging, and shell-first desktop workflows.",
+  "author": {
+    "name": "Joel Moss"
+  },
+  "license": "MIT",
+  "keywords": [
+    "macos",
+    "swift",
+    "swiftui",
+    "appkit",
+    "xcode",
+    "swiftpm",
+    "debugging",
+    "codesign",
+    "logging",
+    "telemetry",
+    "oslog"
+  ]
+}
